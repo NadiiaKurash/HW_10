@@ -1,0 +1,43 @@
+    1  git config --global user.name "NadiiaKurash"
+    2  git config --global user.email "nkurash08@gmail.com"
+    3  git clone https://github.com/NadiiaKurash/HW_10.git
+    4  cd HW_10
+    5  touch text_ignore.txt
+    6  ls -l
+    7  vim .gitignore
+    8  cat .gitignore
+    9  clear
+   10  git status
+   11  git add .gitignore
+   12  git status
+   13  git commit -m "First commit"
+   14  clear
+   15  touch main_test.txt
+   16  ls -l
+   17  git status
+   18  git add main_test.txt
+   19  git status
+   20  git commit -m "Sekond commit"
+   21  clear
+   22  git branch
+   23  git checkout -b develop
+   24  git branch
+   25  touch develop_test.txt
+   26  ls -l
+   27  clear
+   28  git add develop_test.txt
+   29  git status
+   30  git commit -m "Third commit"
+   31  vim develop_test.txt
+   32  git status
+   33  git add develop_test.txt
+   34  git status
+   35  git commit -m "Fourth commit"
+   36  clear
+   37  git checkout main
+   38  git branch
+   39  git marge develop
+   40  git merge develop
+   41  git log
+   42  clear
+   43  history > command_list.csv
